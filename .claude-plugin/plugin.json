@@ -1,6 +1,6 @@
 {
   "name": "scan-modules",
-  "description": "Scan and cache project module structure for fast Claude context loading. Supports full scan, incremental update, status check, and git hook installation. Language-agnostic: Swift, TypeScript, Python, Go, Rust.",
+  "description": "Scan and cache project module structure for fast Claude context loading. Use /scan-modules:scan-modules to index your codebase, then Claude auto-loads the cache each session. Supports incremental updates via git diff and auto-update via post-commit hook. Works with Swift, TypeScript, Python, Go, and Rust.",
   "version": "1.0.0",
   "author": {
     "name": "fengzhyuan"
